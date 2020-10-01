@@ -16,7 +16,4 @@ class Restaurant {
     this.phone = '',
     this.favorite = false
   });
-  Restaurant.clone(Restaurant r) {
-    this.favorite = r.favorite;
-  }
 }
